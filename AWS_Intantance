@@ -1,0 +1,25 @@
+#############Create Instancce in AWS #############
+
+######### make your key private#########
+chmod 400 key.pem 
+
+######## Connect to your local Machine #######
+ssh -i "key.pem" ubuntu@ec2-34-245-88-45.eu-west-1.compute.amazonaws.com
+
+Note:- you will see the welcome Linux welcome msg 
+
+###### Login to machine #########
+df -h
+
+####### now become sudo user #######
+sudo su
+
+######## check if your root ####
+id 
+
+######## Check How many disk you have #######
+lsblk
+
+
+
+
